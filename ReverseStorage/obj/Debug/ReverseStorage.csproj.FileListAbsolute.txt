@@ -1,0 +1,9 @@
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\bin\Debug\ReverseStorage.exe.config
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\bin\Debug\ReverseStorage.exe
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\bin\Debug\ReverseStorage.pdb
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\bin\Debug\Moq.dll
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\bin\Debug\Moq.xml
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\obj\Debug\ReverseStorage.exe
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\obj\Debug\ReverseStorage.pdb
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\obj\Debug\ReverseStorage.csprojResolveAssemblyReference.cache
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\bin\Debug\SavedWords.txt

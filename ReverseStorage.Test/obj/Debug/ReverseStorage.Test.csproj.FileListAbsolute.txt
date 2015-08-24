@@ -1,0 +1,10 @@
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage.Test\bin\Debug\ReverseStorage.Test.dll
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage.Test\bin\Debug\ReverseStorage.Test.pdb
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage.Test\bin\Debug\Moq.dll
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage.Test\bin\Debug\ReverseStorage.exe
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage.Test\bin\Debug\ReverseStorage.pdb
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage.Test\bin\Debug\Moq.xml
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage.Test\obj\Debug\ReverseStorage.Test.csprojResolveAssemblyReference.cache
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage.Test\obj\Debug\ReverseStorage.Test.dll
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage.Test\obj\Debug\ReverseStorage.Test.pdb
+C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage.Test\bin\Debug\SavedWords.txt
