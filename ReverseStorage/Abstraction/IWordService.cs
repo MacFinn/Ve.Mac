@@ -10,5 +10,6 @@ namespace ReverseStorage.Abstraction
     {
         void AddWord(string path, string reversedWord);
         void RetrieveAllWordsToConsole(string path);
+        List<string> RetrieveAllWords(string path);
     }
 }

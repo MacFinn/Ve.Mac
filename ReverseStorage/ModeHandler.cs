@@ -1,6 +1,7 @@
 ﻿using ReverseStorage.Abstraction;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,11 +23,12 @@ namespace ReverseStorage
 
         public void OrchestrateMode(UserMode mode, string word)
         {
+            var path = Path.Combine(Environment.CurrentDirectory, "SavedWords.txt");
             switch (mode)
             {
                 case UserMode.RETRIEVE:
                     IWordService handler = _wordService;
-                    handler.RetrieveAllWordsToConsole(@"C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\SavedWords.txt");
+                    handler.RetrieveAllWordsToConsole(path);
                     break;
                 case UserMode.INSERT:
                     IValidator validator = _validator;
@@ -36,7 +38,7 @@ namespace ReverseStorage
                     word = inverter.GetInvertedWord(word);
 
                     IWordService writer = _wordService;
-                    writer.AddWord(@"C:\Users\mfinn\Desktop\ReverseStorage\ReverseStorage\SavedWords.txt", word);
+                    writer.AddWord(path, word);
                     }
                     break;
                 default:

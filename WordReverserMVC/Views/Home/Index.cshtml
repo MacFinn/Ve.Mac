@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@model WordReverserMVC.Models.TextStorageModel
+
+<div class="row">
+    @using (Html.BeginForm("InsertWord", "Home"))
+    {
+        <div class="col-md-6">
+            <h2>Store a word</h2>
+            <p>Enter a word you would like to store:</p>
+
+            @Html.TextBoxFor(m => m.WordToStore, null, new { @class = "form-control" })
+
+            <input type="submit" class="btn btn-success" value="Submit" style="width:100%;margin-top: 10px;" />
+
+        </div>
+        <div class="col-md-6">
+            <h2>Stored Words</h2>
+            <p>The following is a list of all words currently being stored.</p>
+            @Html.TextAreaFor(m => m.StoredWords, new { @class = "form-control", @style="height: 800px;" })
+            <a href="/Home">
+                <input type="button" class="btn btn-success" value="Refresh Stored Words" style="width:100%;margin-top: 10px;" />
+            </a>
+            
+        </div>
+    }
+</div>

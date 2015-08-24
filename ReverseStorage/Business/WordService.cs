@@ -31,5 +31,19 @@ namespace ReverseStorage
                 Console.WriteLine(line);
             }
         }
+
+        public List<string> RetrieveAllWords(string path)
+        {
+            List<string> words = new List<string>();
+
+            var fileContent = _fileWrapper.ReadFile(path);
+
+            foreach (string line in fileContent)
+            {
+                words.Add(line);
+            }
+
+            return words;
+        }
     }
 }
